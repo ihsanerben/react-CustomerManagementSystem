@@ -1,0 +1,59 @@
+.boxForm {
+  display: flex;
+  gap: 10px;
+  height: 40px;
+}
+
+.boxForm input {
+  border: none;
+  border-radius: 5px;
+  padding: 0px 15px;
+  outline: none;
+}
+
+.boxForm input.url {
+  flex: 1;
+}
+
+.boxForm input.name {
+  flex: 10;
+}
+
+.boxForm button {
+  flex: 1;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
+
+.people {
+  margin-top: 30px;
+}
+
+.boxForm button {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .boxForm input {
+    padding: 0px 15px;
+    width: 50px;
+  }
+
+  .boxForm {
+    height: 30px;
+  }
+
+  .boxForm input.url {
+    flex: 2;
+  }
+
+  .boxForm input.name {
+    flex: 2;
+  }
+
+  .boxForm button {
+    flex: 1;
+  }
+}

@@ -1,0 +1,10 @@
+.boxTitle h1 {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .boxTitle h1 {
+    font-size: 21px;
+  }
+}

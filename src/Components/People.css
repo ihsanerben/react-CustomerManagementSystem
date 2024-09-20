@@ -1,0 +1,60 @@
+.peopleWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.info1 {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.info1 p {
+  font-size: 22px;
+}
+
+.info1 img {
+  width: 70px;
+  height: 70px;
+}
+
+.person button {
+  padding: 7px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+@media (max-width: 600px) {
+  .info1 p {
+    font-size: 12px;
+  }
+
+  .info1 img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .person button {
+    padding: 3px;
+  }
+
+  .person {
+    padding: 5px;
+  }
+
+  .peopleWrapper {
+    gap: 7px;
+  }
+}
